@@ -1,12 +1,32 @@
 To use: 
-Clone the repo, cd into in from terminal,
-run pip3 install -r requirements.txt
-python3 run.py
+Clone the repo 
+```
+git clone https://github.com/timi2506/iphone-mirroring-eu-activate.git
+```
+Change the activate Directory to the cloned repo
+```
 
-
-
-
-
+```
+Install the requirements
+```
+pip3 install -r requirements.txt
+```
+If you get an error like this: 
+<img width="1006" alt="Screenshot 2024-09-20 at 20 51 42" src="https://github.com/user-attachments/assets/5a7c9ab0-eb49-4c18-aead-d3193a3f33b7">
+run:
+```
+pip3 install -r requirements.txt --break-system-packages
+```
+instead (dw your system packages will not actually break)
+make the script files executeable
+```
+chmod +x ./*
+```
+and lastly running the script itself
+```
+./run-macOS.command
+```
+Profit! :D
 
 
 
@@ -28,3 +48,5 @@ Guide for Apple Intelligence: https://gist.github.com/f1shy-dev/23b4a78dc283edd3
 * [doronz88](https://github.com/doronz88) - pymobiledevice3
 * [opa334](https://github.com/opa334), [Alfie](https://github.com/alfiecg24) - TrollStore
 * [Aaronp613](https://x.com/aaronp613) - Minor improvements
+* [xezrunner](https://x.com/xezrunner) - helping to locate and modify eligibility.plist and changing the script to work with iPhone Mirroring
+

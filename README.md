@@ -1,3 +1,5 @@
+ATTENTION: This script works best with SIP disabled (google if you dont know how to disable it) as otherwise some you may not be able to easily mod certain files and some files may go back to their originals after rebooting, it is recommended to disable SIP to use this
+
 To use: 
 Clone the repo 
 ```

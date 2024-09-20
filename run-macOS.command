@@ -10,7 +10,9 @@ echo "Ready to experience iPhone Mirroring on your EU Devices yet? You'll be gui
 sleep 1
 read -n 1 -s -r -p "Press any key to continue..."
 echo "Step 1:
-Patching eligibility.plist in macOS to make it think you can use iPhone Mirroring, you may have to enter your user account password"
+Patching eligibility.plist in macOS to make it think you can use iPhone Mirroring, you may have to enter your user account password.
+
+IF YOU HAVE SIP ON (System Integrity Protection) you sadly have to do this yourself, just replace /private/var/db/os_eligibility/eligibility.plist with the eligibility plist found in the xezrunner folder"
 sudo mv /private/var/db/os_eligibility/eligibility.plist /private/var/db/os_eligibility/eligibility.plist.backup
 sudo cp ./xezrunner/eligibility.plist /private/var/db/os_eligibility/eligibility.plist
 echo "Done! Now well move over to..."

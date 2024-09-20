@@ -9,6 +9,7 @@ echo "Ready to experience iPhone Mirroring on your EU Devices yet? You'll be gui
 "
 sleep 1
 read -n 1 -s -r -p "Press any key to continue..."
+clear
 echo "Step 1:
 Patching eligibility.plist in macOS to make it think you can use iPhone Mirroring, you may have to enter your user account password.
 
@@ -18,6 +19,7 @@ read -n 1 -s -r -p "Press any key to continue..."
 open /private/var/db/os_eligibility/
 open ./xezrunner/eligibility.plist
 read -n 1 -s -r -p "Press any key to continue..."
+clear
 echo "Done! Now well move over to..."
 sleep 3
 clear

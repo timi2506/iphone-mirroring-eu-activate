@@ -53,4 +53,4 @@ Guide for Apple Intelligence: https://gist.github.com/f1shy-dev/23b4a78dc283edd3
 * [opa334](https://github.com/opa334), [Alfie](https://github.com/alfiecg24) - TrollStore
 * [Aaronp613](https://x.com/aaronp613) - Minor improvements
 * [xezrunner](https://x.com/xezrunner) - helping to locate and modify eligibility.plist and changing the script to work with iPhone Mirroring
-
+* [Tobias Platte](https://x.com/hmmd59hbz6?s=21) - helping to find and fix some errors

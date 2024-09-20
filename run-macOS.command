@@ -13,7 +13,7 @@ clear
 echo "Step 1:
 Patching eligibility.plist in macOS to make it think you can use iPhone Mirroring, you may have to enter your user account password.
 
-Due to limitations in macOS, you sadly have to do this yourself, just replace /private/var/db/os_eligibility/eligibility.plist with the eligibility plist found in the xezrunner folder, both folders should open when you press a key"
+Due to limitations in macOS, you sadly have to do this yourself, just replace /private/var/db/os_eligibility/eligibility.plist with the eligibility plist found in the xezrunner folder, both folders should open when you press a key (Tip: you may want to backup the existing eligibility file)"
 read -n 1 -s -r -p "Press any key to continue..."
 
 open /private/var/db/os_eligibility/

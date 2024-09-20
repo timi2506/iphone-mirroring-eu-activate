@@ -29,7 +29,7 @@ and lastly running the script itself and follow all instructions
 ```
 Profit! :D
 
-If you need any help, dm me on twitter x.com/timi2506
+If you need any help, dm me on Twitter https://x.com/timi2506
 
 
 # Quick sparserestore exploit script 

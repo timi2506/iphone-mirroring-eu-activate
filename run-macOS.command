@@ -17,7 +17,7 @@ Due to limitations in macOS, you sadly have to do this yourself, just replace /p
 read -n 1 -s -r -p "Press any key to continue..."
 
 open /private/var/db/os_eligibility/
-open ./xezrunner/eligibility.plist
+open ./xezrunner/
 read -n 1 -s -r -p "Press any key to continue..."
 clear
 echo "Done! Now well move over to..."

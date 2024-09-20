@@ -3,6 +3,7 @@ echo "Welcome! (again)"
 sleep 1
 clear
 echo "Last step to finish this is to clear the iPhone Mirroring Cache of your Mac, once you hit any Key to continue the script should finish that for you, if it fails or iPhone Mirroring still doesn't work i recommend using the free Application App Cleaner (https://freemacsoft.net/downloads/AppCleaner_3.6.8.zip) to clean the rest of iPhone Mirroring Application on macOS
+
 BEFORE YOU CONTINUE: Due to a limitation in macOS you have to disable SIP (System Integrity Protection) by following these Instructions: To disable SIP, do the following:
 Restart your computer in Recovery mode.
 Launch Terminal from the Utilities menu.

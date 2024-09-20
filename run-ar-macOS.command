@@ -7,8 +7,8 @@ echo "Last step to finish this is to clear the iPhone Mirroring Cache of your Ma
 sleep 1
 read -n 1 -s -r -p "Press any key to continue..."
 echo "Clearing iPhone Mirrorings Cache..."
-rm -rf ~/Library/Containers/com.apple.ScreenContinuity
-rm -rf ~/Library/Application\ Scripts/com.apple.ScreenContinuity
+sudo rm -rf ~/Library/Containers/com.apple.ScreenContinuity
+sudo rm -rf ~/Library/Application\ Scripts/com.apple.ScreenContinuity
 sleep 1
 echo "
 Done!"

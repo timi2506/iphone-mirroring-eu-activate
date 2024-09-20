@@ -29,7 +29,7 @@ and lastly running the script itself and follow all instructions
 ```
 Profit! :D
 
-If you need any help, dm me on Twitter https://x.com/timi2506 BTW: if you get an error running the run-ar-macOS.command file just redownload this repo, its fixed by now. Also i added a script to revert the eligibility file changes on macOS, to revert them on iOS just reboot the device! :D Have fun!
+If you need any help, dm me on Twitter https://x.com/timi2506 BTW: if you get an error running the run-ar-macOS.command file just redownload this repo, its fixed by now. Also i added a script to revert the eligibility file changes on macOS (revert-macOS.command), to revert them on iOS just reboot the device! :D Have fun!
 
 
 # Quick sparserestore exploit script 

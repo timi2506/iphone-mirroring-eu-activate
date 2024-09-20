@@ -1,0 +1,26 @@
+clear
+echo Welcome
+sleep 0.35
+clear 
+echo Welcome!
+sleep 1
+clear
+echo "Ready to experience iPhone Mirroring on your EU Devices yet? You'll be guided on how to activate it, just follow the instructions and you should be good to go :D
+"
+sleep 1
+read -n 1 -s -r -p "Press any key to continue..."
+echo "Step 1:
+Patching eligibility.plist in macOS to make it think you can use iPhone Mirroring, you may have to enter your user account password"
+sudo mv /private/var/db/os_eligibility/eligibility.plist /private/var/db/os_eligibility/eligibility.plist.backup
+sudo cp ./xezrunner/eligibility.plist /private/var/db/os_eligibility/eligibility.plist
+echo "Done! Now well move over to..."
+sleep 1
+clear
+echo "Step 2:
+Patching your iPhones Eligibility.plist file! Please plug it in now to continue and hit Trust this computer when prompted"
+read -n 1 -s -r -p "Press any key to continue..."
+python3 eligibility.py
+echo "Success! Now you have to reboot your Mac (DONT REBOOT YOUR IPHONE), after rebooting go back to Terminal, cd into the Folder the script is in again and run the file called
+run-ar-macOS.command"
+read -n 1 -s -r -p "Press any key to reboot your Mac..."
+sudo reboot

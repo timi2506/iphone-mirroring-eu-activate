@@ -5,7 +5,7 @@ git clone https://github.com/timi2506/iphone-mirroring-eu-activate.git
 ```
 Change the activate Directory to the cloned repo
 ```
-
+cd iphone-mirroring-eu-activate
 ```
 Install the requirements
 ```

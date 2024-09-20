@@ -23,12 +23,12 @@ Next, make the script files executeable
 ```
 chmod +x ./*
 ```
-and lastly running the script itself
+and lastly running the script itself and follow all instructions
 ```
 ./run-macOS.command
 ```
 Profit! :D
-
+If you need any help, dm me on twitter x.com/timi2506
 
 
 # Quick sparserestore exploit script 

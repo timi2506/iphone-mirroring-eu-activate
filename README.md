@@ -18,7 +18,8 @@ run:
 pip3 install -r requirements.txt --break-system-packages
 ```
 instead (dw your system packages will not actually break)
-make the script files executeable
+
+Next, make the script files executeable
 ```
 chmod +x ./*
 ```

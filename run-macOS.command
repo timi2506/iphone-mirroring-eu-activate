@@ -22,7 +22,7 @@ echo "Step 2:
 Patching your iPhones Eligibility.plist file! Please plug it in now to continue and hit Trust this computer when prompted"
 read -n 1 -s -r -p "Press any key to continue..."
 python3 eligibility.py
-echo "Success! Now you have to reboot your Mac (DONT REBOOT YOUR IPHONE), after rebooting go back to Terminal, cd into the Folder the script is in again and run the file called
+echo "Success! Now you have to reboot your Mac (DONT REBOOT YOUR IPHONE), after rebooting try opening iPhone Mirroring, if it doesnt work, go back to Terminal, cd into the Folder the script is in again and run the file called
 run-ar-macOS.command"
 read -n 1 -s -r -p "Press any key to reboot your Mac..."
 sudo reboot

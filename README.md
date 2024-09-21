@@ -33,6 +33,8 @@ Profit! :D
 
 If you need any help, dm me on Twitter https://x.com/timi2506 BTW: if you get an error running the run-ar-macOS.command file just redownload this repo, its fixed by now. Also i added a script to revert the eligibility file changes on macOS (revert-macOS.command), to revert them on iOS just reboot the device! :D Have fun!
 
+After patching the macOS file please go to "/private/var/os_eligibility/eligibility.plist" and hit CMD + I to open the informations windows, then check locked and you're done :)
+
 
 # Quick sparserestore exploit script 
 ### based on [TrollRestore](https://github.com/JJTech0130/TrollRestore)
